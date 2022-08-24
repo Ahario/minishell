@@ -12,14 +12,34 @@
 
 #include "libft.h"
 
-static int	check(char const str, char charset)
+int	ft_strlcpy(char *dst, const char *src, int dstsize)
 {
-	if (str == charset)
+	int	i;
+	int	j;
+
+	i = 0;
+	j = 0;
+	while (src[j] != '\0')
+		j++;
+	if (dstsize == 0)
+		return (j);
+	while (src[i] != '\0' && i + 1 < dstsize)
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = '\0';
+	return (j);
+}
+
+int	check(char const str, char *charset)
+{
+	if (str == charset[0])
 		return (1);
 	return (0);
 }
 
-static int	findsecond(char const *str, char charset)
+int	findsecond(char const *str, char *charset)
 {
 	int	i;
 
@@ -29,7 +49,7 @@ static int	findsecond(char const *str, char charset)
 	return (i);
 }
 
-static int	findfirst(char const *str, char charset)
+int	findfirst(char const *str, char *charset)
 {
 	int	i;
 	int	total;
@@ -48,7 +68,7 @@ static int	findfirst(char const *str, char charset)
 	return (total);
 }
 
-static char	**malloc_free(char **all)
+char	**malloc_free(char **all)
 {
 	int	i;
 
@@ -62,7 +82,7 @@ static char	**malloc_free(char **all)
 	return (NULL);
 }
 
-char	**ft_split(char const *s, char c)
+char	**ft_split(char const *s, char *c)
 {
 	int		i;
 	int		total;

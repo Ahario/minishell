@@ -141,3 +141,7 @@ int		main(void)
 	reset_term();
 	return (EXIT_SUCCESS);
 }
+
+-lreadline
+-L/home/linuxbrew/.linuxbrew/Cellar/readline/8.1.2/lib
+-I/home/linuxbrew/.linuxbrew/Cellar/readline/8.1.2/include 
