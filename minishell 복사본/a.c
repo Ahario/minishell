@@ -1,0 +1,27 @@
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/zsh
+TERM=xterm-256color
+TMPDIR=/var/folders/zz/zyxvpxvq6csfxvn_n000cn4w003597/T/
+TERM_PROGRAM_VERSION=433
+TERM_SESSION_ID=326B68D0-3E51-482E-BD26-AFA2377A98BC
+USER=hyeo
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.NHrJyIzmGl/Listeners
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/hyeo/.brew/bin:/Users/hyeo/.brew/opt/llvm/bin/:/Users/hyeo/goinfre/brew/opt/llvm/bin/:/Users/hyeo/.local/share/nvim/site/pack/packer/start/fzf/bin
+PWD=/Users/hyeo/Desktop/minishell 복사본
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/hyeo
+LOGNAME=hyeo
+OLDPWD=/Users/hyeo/Desktop
+XDG_CONFIG_HOME=/Users/hyeo/.config
+ZDOTDIR=/Users/hyeo/.config/zsh
+ZSH=/Users/hyeo/.oh-my-zsh
+FZF_BASE=/Users/hyeo/.brew/opt/fzf
+FZF_DEFAULT_OPTS=--height 40% --layout=reverse --border
+EDITOR=nvim
+PAGER=less
+LESS=-R
+LSCOLORS=Gxfxcxdxbxegedabagacad
+_=/usr/bin/env
